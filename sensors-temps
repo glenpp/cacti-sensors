@@ -17,7 +17,7 @@
 #
 #
 #
-# See: http://www.pitt-pladdy.com/blog/_20091031-160232_0000_LM_Sensors_stats_on_Cacti_via_SNMP_/
+# See: https://www.pitt-pladdy.com/blog/_20091031-160232_0000_LM_Sensors_stats_on_Cacti_via_SNMP_/
 
 /usr/bin/sensors | /bin/grep '^Core0 Temp:' | /bin/sed 's/^.*: *+\([0-9\.]*\) C .*$/\1/'
 /usr/bin/sensors | /bin/grep '^CPU Temp:' | /bin/sed 's/^.*: *+\([0-9\.]*\) C .*$/\1/'
