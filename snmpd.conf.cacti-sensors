@@ -1,9 +1,3 @@
-# older scripts
-extend sensortemps /etc/snmp/sensors-temps
-extend sensorfans /etc/snmp/sensors-fans
-extend sensorvoltages /etc/snmp/sensors-voltages
-
-# new generic indexed
 extend sensor_temps_index /etc/snmp/sensors_generic.py temps index
 extend sensor_temps_label /etc/snmp/sensors_generic.py temps labels
 extend sensor_temps_value /etc/snmp/sensors_generic.py temps value
